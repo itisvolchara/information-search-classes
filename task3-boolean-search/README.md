@@ -11,14 +11,21 @@
 
 ### Запуск
 
-**1. Построение инвертированного индекса:**
+**1. Сборка проекта:**
+
+```bash
+cd task3-boolean-search
+mvn compile
+```
+
+**2. Построение инвертированного индекса:**
 
 ```bash
 cd task3-boolean-search
 mvn exec:java -Dexec.mainClass="main.java.InvertedIndexBuilder"
 ```
 
-**2. Интерактивный булев поиск:**
+**3. Интерактивный булев поиск:**
 
 ```bash
 cd task3-boolean-search
